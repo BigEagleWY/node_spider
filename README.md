@@ -2,5 +2,5 @@
 ## 基于node的网络爬虫
 
 `
-运行方法：node spider.js
+运行方法：node index.js
 `
