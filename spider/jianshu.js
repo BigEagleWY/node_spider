@@ -1,6 +1,5 @@
 var request = require("request");
 var cheerio = require("cheerio");
-var io = require("jsonio");
 var common = require("../lib/common.js");
 
 
@@ -18,12 +17,20 @@ var jianshu = {
       if (!err && response.statusCode == 200) {
         var $ = cheerio.load(body);
         var result = $('.main-top .info');
+        var reads = $('div.content div.meta a:first-child');
         jianshu.data.fans = result.find('.meta-block').eq(1).find('p').html();
         jianshu.data.article = result.find('.meta-block').eq(2).find('p').html();
         jianshu.data.numbers = result.find('.meta-block').eq(3).find('p').html();
         jianshu.data.likes = result.find('.meta-block').eq(4).find('p').html();
-        jianshu.showResult(jianshu.data);
-        jianshu.saveResult(jianshu.data);
+        var singleNum = 0,
+          seeCount = 0;
+        reads.each(function (index, item) {
+          $(item).find('i').remove();
+          singleNum = parseInt($(item).html());
+          seeCount += singleNum;
+        });
+        //jianshu.showResult(jianshu.data);
+        jianshu.saveResult(jianshu.dataUrl, jianshu.data);
       }
     });
   },
@@ -33,17 +40,9 @@ var jianshu = {
     console.log("字数:" + data.numbers);
     console.log("喜欢数:" + data.likes);
   },
-  saveResult: function (data) {
-    var now = new Date();
-    io.append(jianshu.dataUrl, {
-      time:now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate(),
-      fans:data.fans,
-      article:data.article,
-      numbers:data.article,
-      likes:data.likes
-    });
+  saveResult: function (url, data) {
+    common.saveJianshu(url, data);
   }
-
 };
 
 module.exports = jianshu;
