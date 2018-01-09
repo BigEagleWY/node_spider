@@ -11,6 +11,7 @@ var jianshu = {
     article: 0,
     numbers: 0,
     likes: 0,
+    see:0
   },
   search: function () {
     request(jianshu.url, function (err, response, body) {
@@ -29,8 +30,9 @@ var jianshu = {
           singleNum = parseInt($(item).html());
           seeCount += singleNum;
         });
-        //jianshu.showResult(jianshu.data);
-        jianshu.saveResult(jianshu.dataUrl, jianshu.data);
+        jianshu.data.see = seeCount;
+        jianshu.showResult(jianshu.data);
+        //jianshu.saveResult(jianshu.dataUrl, jianshu.data);
       }
     });
   },
@@ -39,6 +41,7 @@ var jianshu = {
     console.log("文章数:" + data.article);
     console.log("字数:" + data.numbers);
     console.log("喜欢数:" + data.likes);
+    console.log("阅读数:" + data.see);
   },
   saveResult: function (url, data) {
     common.saveJianshu(url, data);

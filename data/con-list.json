@@ -1,0 +1,204 @@
+{
+ "data": [
+  {
+   "case_num": 1,
+   "dept_name": "辽宁分公司",
+   "contri_num": 7
+  },
+  {
+   "case_num": 2,
+   "dept_name": "海南分公司",
+   "contri_num": 4.75
+  },
+  {
+   "case_num": 27,
+   "dept_name": "云南分公司",
+   "contri_num": 4.53333333333333
+  },
+  {
+   "case_num": 17,
+   "dept_name": "山东分公司",
+   "contri_num": 3.46153846153846
+  },
+  {
+   "case_num": 38,
+   "dept_name": "宁波分公司",
+   "contri_num": 1.63157894736842
+  },
+  {
+   "case_num": 35,
+   "dept_name": "福建分公司",
+   "contri_num": 1.57142857142857
+  },
+  {
+   "case_num": 36,
+   "dept_name": "常州分公司",
+   "contri_num": 1.47619047619048
+  },
+  {
+   "case_num": 30,
+   "dept_name": "贵州分公司",
+   "contri_num": 1.47368421052632
+  },
+  {
+   "case_num": 31,
+   "dept_name": "北京分公司",
+   "contri_num": 1.32
+  },
+  {
+   "case_num": 41,
+   "dept_name": "四川分公司",
+   "contri_num": 1.31578947368421
+  },
+  {
+   "case_num": 3,
+   "dept_name": "广西分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 4,
+   "dept_name": "河北分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 5,
+   "dept_name": "青岛分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 6,
+   "dept_name": "青海分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 7,
+   "dept_name": "山西分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 8,
+   "dept_name": "陕西分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 9,
+   "dept_name": "深圳分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 10,
+   "dept_name": "豫北分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 11,
+   "dept_name": "豫西分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 12,
+   "dept_name": "浙江分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 13,
+   "dept_name": "重庆分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 15,
+   "dept_name": "大连分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 16,
+   "dept_name": "内蒙古分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 21,
+   "dept_name": "吉林分公司",
+   "contri_num": 1
+  },
+  {
+   "case_num": 14,
+   "dept_name": "天津分公司",
+   "contri_num": 0.952380952380952
+  },
+  {
+   "case_num": 19,
+   "dept_name": "安徽分公司",
+   "contri_num": 0.952380952380952
+  },
+  {
+   "case_num": 20,
+   "dept_name": "苏州分公司",
+   "contri_num": 0.952380952380952
+  },
+  {
+   "case_num": 22,
+   "dept_name": "黑龙江分公司",
+   "contri_num": 0.95
+  },
+  {
+   "case_num": 40,
+   "dept_name": "豫南分公司",
+   "contri_num": 0.923076923076923
+  },
+  {
+   "case_num": 18,
+   "dept_name": "湖北分公司",
+   "contri_num": 0.92
+  },
+  {
+   "case_num": 32,
+   "dept_name": "江苏分公司",
+   "contri_num": 0.91304347826087
+  },
+  {
+   "case_num": 23,
+   "dept_name": "江西分公司",
+   "contri_num": 0.888888888888889
+  },
+  {
+   "case_num": 24,
+   "dept_name": "上海分公司",
+   "contri_num": 0.88
+  },
+  {
+   "case_num": 37,
+   "dept_name": "厦门分公司",
+   "contri_num": 0.866666666666667
+  },
+  {
+   "case_num": 28,
+   "dept_name": "河南法渠",
+   "contri_num": 0.857142857142857
+  },
+  {
+   "case_num": 29,
+   "dept_name": "湖南分公司",
+   "contri_num": 0.85
+  },
+  {
+   "case_num": 33,
+   "dept_name": "宁夏分公司",
+   "contri_num": 0.8125
+  },
+  {
+   "case_num": 34,
+   "dept_name": "新疆分公司",
+   "contri_num": 0.8125
+  },
+  {
+   "case_num": 39,
+   "dept_name": "无锡分公司",
+   "contri_num": 0.727272727272727
+  },
+  {
+   "case_num": 42,
+   "dept_name": "广东分公司",
+   "contri_num": 0.666666666666667
+  }
+ ]
+}
